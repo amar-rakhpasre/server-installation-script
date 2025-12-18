@@ -28,6 +28,10 @@ sudo systemctl start jenkins
 
 sudo systemctl status jenkins
 
+echo "Browse to http://localhost:8080 (or whichever port you configured for Jenkins when installing it) and wait until the Unlock Jenkins page appears."
+
+echo "The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console."
+
 
 
 
